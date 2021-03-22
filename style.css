@@ -1,0 +1,91 @@
+#main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#caculator-container {
+    background: aliceblue;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 30%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.result-text {
+    width: 100%;
+    height: 30px;
+}
+
+.caculator-name {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+}
+
+.caculator-name h2 {
+    font-size: 14px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.caculator-name p {
+    font-size: 14px;
+    margin: 10px 0;
+    text-align: right;
+}
+
+#formula-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+
+#number-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+#number-buttons a {
+    text-align: center;
+    background-color: #474747;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#number-buttons a:hover {
+    background-color: #7c7a7a;
+}
+
+#operator-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+#operator-buttons a {
+    text-align: center;
+    background-color: #474747;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#operator-buttons a:hover {
+    background-color: #7c7a7a;
+}
