@@ -5,6 +5,7 @@ function swap(items, leftIndex, rightIndex) {
     items[leftIndex] = items[rightIndex];
     items[rightIndex] = temp;
 }
+
 function partition(items, left, right) {
     let pivot = items[Math.floor((right + left) / 2)],
         i = left,
